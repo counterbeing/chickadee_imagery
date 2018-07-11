@@ -1,0 +1,54 @@
+baseURL = "https://www.chickadeeimagery.com"
+languageCode = "en-us"
+title = "Chickadee Imagery"
+theme = "coder" # Set the theme.
+
+paginate = 20 # Default number of pages per page in pagination.
+canonifyurls = true # Enable to turn relative URLs into absolute.
+
+pygmentsstyle = "b2" # Color-theme or style for syntax highlighting.
+pygmentscodefences = true # Enable code fence background highlighting.
+pygmentscodefencesguesssyntax = true # Enable syntax guessing for code fences without specified language.
+
+disqusShortname = "yourdiscussshortname" # Enable or disable Disqus
+publishDir = "docs"
+
+[params] # theme parameters
+    author = "Scott Logan" # Author's name.
+    info = "Drone Photography and Videography" # Author's job title or info.
+    description = "Drone Photography and Videography" # Site description.
+    keywords = "drones,real estate" # Site keywords.
+    avatarurl = "images/avatar.jpg" # Contain the path of the optionnal avatar in the static folder.
+    homepageVideo = "VHaLUtowsCI"
+
+    footercontent = "chickadeeimagery@gmail.com 207-607-3972" # Add footer content
+
+    # Whether you want to hide copyright and credits in the footer.
+    hideCredits = false
+    hideCopyright = false
+
+    # Custom CSS
+    custom_css = []
+
+    # RTL support
+    rtl = false
+
+# Social links
+[[params.social]]
+    name = "YouTube"
+    weight = 1
+    url = "https://www.youtube.com/channel/UC08ENL-Tb-9GfH4VdsgXkog"
+[[params.social]]
+    name = "Email"
+    weight = 2
+    url = "mailto:chickadeeimagery@gmail.com"
+
+# Menu links
+# [[menu.main]]
+#     name = "Blog"
+#     weight = 1
+#     url  = "/posts/"
+# [[menu.main]]
+#     name = "About"
+#     weight = 2
+#     url = "/about/"
